@@ -5,6 +5,9 @@ import express from "express";
 const app = express();
 // crear una variable con express
 app.set("port", process.env.PORT || 4000);
+app.listen(app.get("port"), () => {
+  console.log("Hola mundo " + app.get("port"));
+});
 // esto seria para cuando el servidor manda el puerto en variable de entorno
 // 2- middlewares
 
