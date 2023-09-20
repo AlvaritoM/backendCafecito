@@ -24,6 +24,6 @@ app.use(morgan("dev")); // nos da mas informacion en la terminal
 // 3- crear las rutas
 // http://localhost:4000/api/producto
 app.use("/api", productoRouter);
-app.use("/api", usuarioRouter);
+app.use("/api/auth", usuarioRouter);
 
 //tarea crear ruta y controlador para los usuarios
