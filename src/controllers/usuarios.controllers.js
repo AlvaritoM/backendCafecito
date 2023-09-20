@@ -1,5 +1,5 @@
 import Usuario from "../models/usuario.js";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
 
 //verificar si existe el mail
 //verificar si el usuario que encontre tiene la misma contraseña que recibi en body

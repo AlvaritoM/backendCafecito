@@ -3,7 +3,7 @@ import {
   crearUsuario,
   listarUsuarios,
   login,
-} from "../controllers/usuario.controllers.js";
+} from "../controllers/usuarios.controllers.js";
 
 const router = Router();
 
